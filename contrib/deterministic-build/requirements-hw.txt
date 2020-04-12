@@ -39,10 +39,8 @@ Cython==0.28.3 \
     --hash=sha256:e7c2c87ff2f99ed4be1bb046d6eddfb388af627928037f9e0a420c05daaf14ed \
     --hash=sha256:edd7d499685655031be5b4d33005096b6345f81eeb7ab9d2dd415db0c7bcf64e \
     --hash=sha256:f99a777fda569a88deea863eac2722b5e88957c4d5f4413949740da791857ac9
-ecdsa==0.13 \
-    --hash=sha256:40d002cf360d0e035cf2cb985e1308d41aaa087cbfc135b2dc2d844296ea546c \
-    --hash=sha256:64cf1ee26d1cde3c73c6d7d107f835fed7c6a2904aef9eac223d57ad800c43fa
-hidapi==0.7.99.post21 \
+ecdsa>=0.13.3
+   hidapi==0.7.99.post21 \
     --hash=sha256:1ac170f4d601c340f2cd52fd06e85c5e77bad7ceac811a7bb54b529f7dc28c24 \
     --hash=sha256:8d3be666f464347022e2b47caf9132287885d9eacc7895314fc8fefcb4e42946 \
     --hash=sha256:b4b1f6aff0192e9be153fe07c1b7576cb7a1ff52e78e3f76d867be95301a8e87 \
